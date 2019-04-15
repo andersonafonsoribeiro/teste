@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.w3.org/2005/Atom" xmlns:ns3="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <name>20190000848-1.kml</name>
+        <Style id="failed2">
+            <LineStyle>
+                <color>FF00FFFF</color>
+                <width>1.5</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>59FF5555</color>
+                <fill>false</fill>
+            </PolyStyle>
+        </Style>
+        <Style id="failed1">
+            <LineStyle>
+                <color>FF00FFFF</color>
+                <width>1.5</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>59FF5555</color>
+                <fill>false</fill>
+            </PolyStyle>
+        </Style>
+        <StyleMap id="failed5">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#failed2</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#failed1</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Placemark>
+            <name>598001</name>
+            <styleUrl>#failed5</styleUrl>
+            <Polygon>
+                <tessellate>true</tessellate>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-46.78268077713,-21.95670829755,795.03 -46.78189757210,-21.95787251737,775.38 -46.78248899919,-21.95815486411,778.70 -46.78296240908,-21.95849691338,779.54 -46.78426328045,-21.95821581113,800.30 -46.78448322159,-21.95888747045,792.58 -46.78165617329,-21.95910638095,764.77 -46.78000929695,-21.95924568746,749.21 -46.77973034721,-21.95821083587,752.91 -46.77950504166,-21.95719587795,761.58 -46.78109827381,-21.95691726078,776.07 -46.78268077713,-21.95670829755,795.03</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>
