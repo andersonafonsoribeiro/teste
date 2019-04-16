@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.w3.org/2005/Atom" xmlns:ns3="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <name>20170806024-1.kml</name>
+        <Style id="failed2">
+            <LineStyle>
+                <color>FF00FFFF</color>
+                <width>1.5</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>59FF5555</color>
+                <fill>false</fill>
+            </PolyStyle>
+        </Style>
+        <Style id="failed1">
+            <LineStyle>
+                <color>FF00FFFF</color>
+                <width>1.5</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>59FF5555</color>
+                <fill>false</fill>
+            </PolyStyle>
+        </Style>
+        <StyleMap id="failed5">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#failed2</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#failed1</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Placemark>
+            <name>0</name>
+            <styleUrl>#failed5</styleUrl>
+            <Polygon>
+                <tessellate>true</tessellate>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-53.73958900000,-14.81508200000,0.00 -53.73815600000,-14.83296300000,0.00 -53.73964600000,-14.83500000000,0.00 -53.74052300000,-14.83911900000,0.00 -53.74439100000,-14.84040200000,0.00 -53.74991600000,-14.84230600000,0.00 -53.75351300000,-14.83141300000,0.00 -53.75189200000,-14.83148100000,0.00 -53.74833000000,-14.83353500000,0.00 -53.74753800000,-14.83296600000,0.00 -53.74736200000,-14.83072200000,0.00 -53.74797700000,-14.82880300000,0.00 -53.74862800000,-14.82588000000,0.00 -53.75109300000,-14.82269600000,0.00 -53.75050500000,-14.81892700000,0.00 -53.74793500000,-14.81771500000,0.00 -53.74681700000,-14.81868400000,0.00 -53.74497800000,-14.81698500000,0.00 -53.74187600000,-14.81640100000,0.00 -53.73958900000,-14.81508200000,0.00</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>

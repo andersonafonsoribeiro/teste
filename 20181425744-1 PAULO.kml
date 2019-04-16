@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.w3.org/2005/Atom" xmlns:ns3="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <name>20181425744-1.kml</name>
+        <Style id="failed2">
+            <LineStyle>
+                <color>FF00FFFF</color>
+                <width>1.5</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>59FF5555</color>
+                <fill>false</fill>
+            </PolyStyle>
+        </Style>
+        <Style id="failed1">
+            <LineStyle>
+                <color>FF00FFFF</color>
+                <width>1.5</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>59FF5555</color>
+                <fill>false</fill>
+            </PolyStyle>
+        </Style>
+        <StyleMap id="failed5">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#failed2</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#failed1</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Placemark>
+            <name>1</name>
+            <styleUrl>#failed5</styleUrl>
+            <Polygon>
+                <tessellate>true</tessellate>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>-54.20697000000,-15.34620100000,0.00 -54.22064700000,-15.34822600000,0.00 -54.22080300000,-15.35204100000,0.00 -54.21755200000,-15.35710000000,0.00 -54.21659000000,-15.36061900000,0.00 -54.21727700000,-15.36353600000,0.00 -54.21613800000,-15.36695000000,0.00 -54.21220500000,-15.36985000000,0.00 -54.21277400000,-15.37161500000,0.00 -54.21122400000,-15.37349200000,0.00 -54.21170800000,-15.37606800000,0.00 -54.21110400000,-15.37743400000,0.00 -54.20891500000,-15.37713300000,0.00 -54.20697000000,-15.34620100000,0.00</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>
